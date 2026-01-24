@@ -5,11 +5,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 
-st.title("🚗 Vehicle Service Prediction")
+st.title(" Vehicle Service Prediction")
 
 df = pd.read_csv("vehicle_service_dataset.csv")
 
-# ✅ MINIMAL FIX
 le_drive = LabelEncoder()
 le_oil = LabelEncoder()
 
